@@ -29,7 +29,7 @@ Each line of the dataset contains triplets of image URLs along with background d
 <ground_truth_image_url>,<product_image_url>,<glyph_image_url>,<background_description>
 ```
 
-**Note**: Download the url with prefix: http://img30.360buyimg.local/sku/
+**Note**: Append the prefix http://img30.360buyimg.com/sku/ to the download URL.
 
 ## Citation
 If you find our paper or repo helpful for your research, please consider citing our paper and giving this repo a star⭐. Thank you! :)
