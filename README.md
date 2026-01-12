@@ -9,7 +9,7 @@ Product posters blend striking visuals with informative text to highlight the pr
 <img width="928" alt="image" src="examples/overview.png"> 
 
 ## 📢 News
-`[Coming Soon]:` ✨ Training and inference code of IDPO.
+`[Coming Soon]:` ✨ Product poster optimization subset, training and inference code of IDPO.
 
 `[2026-01-12]:` 🔥 We've released our product poster generation dataset.
 
