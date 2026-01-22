@@ -9,9 +9,9 @@ Product posters blend striking visuals with informative text to highlight the pr
 <img width="928" alt="image" src="examples/overview.png"> 
 
 ## 📢 News
-`[Coming Soon]:` ✨ Product poster optimization subset, training and inference code of IDPO.
+`[Coming Soon]:` ✨ Training and inference code of IDPO.
 
-`[2026-01-12]:` 🔥 We've released our product poster generation dataset.
+`[2026-01-12]:` 🔥 We've released our product poster generation and optimization dataset.
 
 `[2025-12-26]:` 🎯 Our paper is now available on arXiv! Check it out here: [https://arxiv.org/abs/2512.21921](https://arxiv.org/abs/2512.21921).
 
@@ -30,6 +30,24 @@ Each line of the dataset contains triplets of image URLs along with background d
 ```
 
 **Note**: Append the prefix http://img30.360buyimg.com/sku/ to the download URL.
+
+**2. Product poster optimization subset**
+[Download Link](https://3.cn/-10Wxotuu)
+Access password: qmlbbc
+
+```trans_img.zip``` contains all the images required for model training. ```idpo_all_samples.json``` contains the structured training data with the following schema:
+
+```
+[
+  {
+    "id": "10025762562081",
+    "image": "data/trans_img/10025762562081.png",
+    "chosen_conversation": [{"from": "human", "value": "xxx"}, {"from": "gpt", "value": "xxx"}],
+    "reject_conversation": [{"from": "human", "value": "xxx"}, {"from": "gpt", "value": "xxx"}],
+  }
+  ...
+]
+```
 
 ## Citation
 If you find our paper or repo helpful for your research, please consider citing our paper and giving this repo a star⭐. Thank you! :)
